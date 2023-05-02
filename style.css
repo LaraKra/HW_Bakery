@@ -101,6 +101,10 @@ ins {
     .pictures-section {
         margin: 10px 0px;
     }
+    .item {
+        height: 600px;
+        margin: 10px;
+    }
 }
 
 @media all and (max-width: 500px) {

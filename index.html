@@ -15,7 +15,10 @@
       <video autoplay muted loop id="myBakery" playsinline>
          <source src="video-bakery.mp4" type="video/mp4">
       </video>
+      
       <!-- H1 -->
+
+      <header>
       <div class="header">
          <h1 class="heading">Peach Bakery</h1>
       </div>
@@ -24,6 +27,7 @@
          <img src="cake.jpg" alt="Cake picture" width="500px">
          <img src="fresh.jpg" alt="Croissant picture" width="600px">
       </div>
+
       <!-- TEXT -->
       <div class="header">
          <!--для заголовков используем один и тот же класс расположения текста-->
@@ -39,14 +43,18 @@
          <img class="pictures-section" src="donuts.png" alt="Donuts picture" width="500px"> <!--отдельный класс, чтобы было пространство между картинками (задали margin 40px в css), отдалить картинки друг от друга-->
          <img class="pictures-section" src="croissantdonuts.png" alt="Croissantdonuts picture" width="400px"> <!--отдельный класс, чтобы было пространство между картинками (задали margin 40px в css), отдалить картинки друг от друга-->
       </div>
+      </header>
+
       <!-- Specials -->
+      <main>
+         <section>
       <div class="header">
          <h2 class="heading-h2">Our Specials</h2>
       </div>
       <!-- First 2 items -->
-      <div class="wrapper">
+      <section class="wrapper">
          <!-- 1 -->
-         <div class="item">
+         <section class="item">
             <h2 class="item-name">Celebration Cake</h2>
             <img src="vanilla.png" alt="Celebration Cake" width="300px">
             <ul>
@@ -55,9 +63,9 @@
                <li>Decorated with strawberries</li>
             </ul>
             <p><del>$75</del><ins>$55</ins></p>
-         </div>
+         </section>
          <!-- 2 -->
-         <div class="item">
+         <section class="item">
             <h2 class="item-name">Chocolate Paradise</h2>
             <img src="chocolate.png" alt="Chocolate Paradise" width="300px">
             <ul>
@@ -66,12 +74,12 @@
                <li>Shredded coconut and walnuts</li>
             </ul>
             <p><del>$120</del><ins>$99</ins></p>
-         </div>
-      </div>
-      <!-- First 3 items -->
-      <div class="wrapper">
+         </section>
+      </section>
+      <!-- First 2 items -->
+      <section class="wrapper">
          <!-- 1 -->
-         <div class="item">
+         <section class="item">
             <h2 class="item-name">Hummingbird Cake</h2>
             <img src="pecans.png" alt="Hummingbird Cake" width="300px">
             <ul>
@@ -80,9 +88,9 @@
                <li>Cream cheese icing</li>
             </ul>
             <p><del>$100</del><ins>$75</ins></p>
-         </div>
+         </section>
          <!-- 2 -->
-         <div class="item">
+         <section class="item">
             <h2 class="item-name">Caramel Cake</h2>
             <img src="caramel.png" alt="Caramel Cake" width="300px">
             <ul>
@@ -91,12 +99,12 @@
                <li>Coated with salted caramel mousse on top of a Lotus Biscoff crumble base</li>
             </ul>
             <p class="price">$140</p>
-         </div>
-      </div>
-      <!-- First 4 items -->
-      <div class="wrapper">
+         </section>
+      </section>
+      <!-- First 2 items -->
+      <section class="wrapper">
          <!-- 1 -->
-         <div class="item">
+         <section class="item">
             <h2 class="item-name">Almond Cake</h2>
             <img src="lemon.png" alt="Almond Cake" width="300px">
             <ul>
@@ -105,9 +113,9 @@
                <li>Silky chocolate buttercream sprinkled with walnuts</li>
             </ul>
             <p class="price">$110</p>
-         </div>
+         </section>
          <!-- 2 -->
-         <div class="item">
+         <section class="item">
             <h2 class="item-name">Pecan Cake</h2>
             <img src="blueberry.png" alt="Pecan Cake" width="300px">
             <ul>
@@ -116,11 +124,14 @@
                <li>Flavored with blueberry juice</li>
             </ul>
             <p class="price">$120</p>
-         </div>
-      </div>
+         </section>
+      </section>
+   </section>
+   </main>
+
       <!-- TEAM -->
-      <div class="header">
+      <footer class="header">
          <img src="footer.jpg" alt="Team" width="80%"> 
-      </div>
+      </footer>
    </body>
 </html>
